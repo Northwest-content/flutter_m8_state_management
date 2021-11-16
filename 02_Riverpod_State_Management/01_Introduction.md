@@ -8,15 +8,15 @@ To learn state management and see how it works for yourself, you will continue w
 
 What do the terms **state** and **state management** mean? 
 
-	- **State** is when a widget is active and has its data in memory. 
-	- **State management** is, as the name implies, how you manage the state of your widgets and app.
+- **State** is when a widget is active and has its data in memory. 
+- **State management** is, as the name implies, how you manage the state of your widgets and app.
 
 
 
 Why do we need state management?
 
-	- Sometimes you need to share and pass the data (State) of the application between screens, and we used the constructor way to pass these data; the old approach is good when we have a few screens, but if you have many screens, and you want to pass the data between them, it will be complicated, so the **Riverpod** package will help us facilitate this matter.
-	- It will help to keep your code well-structured, so your code will become easy to read and maintain.
+- Sometimes you need to share and pass the data (State) of the application between screens, and we used the constructor way to pass these data; the old approach is good when we have a few screens, but if you have many screens, and you want to pass the data between them, it will be complicated, so the **Riverpod** package will help us facilitate this matter.
+- It will help to keep your code well-structured, so your code will become easy to read and maintain.
 
 
 
@@ -66,7 +66,7 @@ void main() {
 
 ​	So, in the **lib** folder, create a new folder, and name it “**providers**”
 
-![img](https://lh3.googleusercontent.com/7L9CGiSic-kMyLUdwJDsoirvZLazTh_7O9k68pIJ7mtLr2tc9qKKAlblvkYnC95csBXbMrnVIaz-OEu1hPYLPYHbsUnr-03SZSNma3liqNz7QBJFmHucSrV-Dv-ZfWXofyCca0xl)
+<img src="https://lh3.googleusercontent.com/7L9CGiSic-kMyLUdwJDsoirvZLazTh_7O9k68pIJ7mtLr2tc9qKKAlblvkYnC95csBXbMrnVIaz-OEu1hPYLPYHbsUnr-03SZSNma3liqNz7QBJFmHucSrV-Dv-ZfWXofyCca0xl" alt="img" width="350" />
 
 
 
@@ -74,7 +74,7 @@ void main() {
 
 8. Before we create a file that is responsible for the logic inside the **providers** folder, let's first figure out where the logic in our app is right now. 
 
-<img src="https://lh4.googleusercontent.com/eUjukQxmaBESf-CA_VmTNEJAc9D-Ppd5RpctRoWQLOTnTDm2yNBR4TdhaZvrMjv2ISgZ77u55Ja8iUMos7O-cD_UadiymORDR4Jg6Kxj4b1GrbtoSAEcvzqEy9AGoTXmpNYWxNhu" alt="img" style="zoom: 67%;" />
+<img src="https://lh4.googleusercontent.com/eUjukQxmaBESf-CA_VmTNEJAc9D-Ppd5RpctRoWQLOTnTDm2yNBR4TdhaZvrMjv2ISgZ77u55Ja8iUMos7O-cD_UadiymORDR4Jg6Kxj4b1GrbtoSAEcvzqEy9AGoTXmpNYWxNhu" alt="img" width="450" />
 
 
 
@@ -112,7 +112,7 @@ import 'package:flutter/material.dart';
 
 Inside the **home_page.dart**, cut the logic, and paste it inside the **NoteProvider** class.
 
-<img src="https://lh5.googleusercontent.com/yPb_FTtGX7F8nrAAldRmMOKq4OG0vo333f8YmOYZXtGjkbzsNdxVI1XYdVHEqq5Luv2rYau3AfwsyN7sh7af2KCacrsjCwMLui6GLftqfhNbNQ9kFzgBzqO2nJ9LzQMyW6quXFPH" alt="img" style="zoom:50%;" />
+<img src="https://lh5.googleusercontent.com/yPb_FTtGX7F8nrAAldRmMOKq4OG0vo333f8YmOYZXtGjkbzsNdxVI1XYdVHEqq5Luv2rYau3AfwsyN7sh7af2KCacrsjCwMLui6GLftqfhNbNQ9kFzgBzqO2nJ9LzQMyW6quXFPH" alt="img" width="650" />
 
 > **Note:** an errors will appear in the code, but do not worry we will solve these problems
 
@@ -194,7 +194,7 @@ void addNote() {
 
 17. After we created the **NoteProvider** class, we need to create a **changeNotifierProvider** variable.
 
-<img src="https://lh4.googleusercontent.com/MrhiNfvcfOqObRwXLSuCcQt8shQUGjatT_-kQKc2llVN8dYrzU6cjYzFE3S7lGDjdnChdCKggucVgyR14DReDPTv2Z-B34229KwwyEf_nmnQFucWrYMCyp5k3yIPaoIigj3Xrt39" alt="img" style="zoom:67%;" />
+<img src="https://lh4.googleusercontent.com/MrhiNfvcfOqObRwXLSuCcQt8shQUGjatT_-kQKc2llVN8dYrzU6cjYzFE3S7lGDjdnChdCKggucVgyR14DReDPTv2Z-B34229KwwyEf_nmnQFucWrYMCyp5k3yIPaoIigj3Xrt39" alt="img" width="650" />
 
 
 
