@@ -76,7 +76,8 @@ ListView.builder(
 
 9. We will get an Exception because we used the **ListView** widget inside the **Column** widget.
 
-   ![img](https://lh3.googleusercontent.com/jJ0mvg2hp6Sas7NpTeh72SZxstoXyk7UQXR6RKsAbR4imKbg7LRP9-F-ct7qeuDLLYbteDhrQ1nfCofxeUALpcoACmKB-hznCKfQZL1p-5onJD9ROwAl5CGlU6-pqmjNeupGgehB)
+<img src="https://lh3.googleusercontent.com/jJ0mvg2hp6Sas7NpTeh72SZxstoXyk7UQXR6RKsAbR4imKbg7LRP9-F-ct7qeuDLLYbteDhrQ1nfCofxeUALpcoACmKB-hznCKfQZL1p-5onJD9ROwAl5CGlU6-pqmjNeupGgehB" alt="img" width="750" />
+
 
 
 
@@ -132,14 +133,14 @@ Also, add `physics: const NeverScrollableScrollPhysics(),` named argument. This 
                           },
                         )
     ```
-
-    ![img](https://lh5.googleusercontent.com/JuQllaI9HpwLkjkkAGhz9ua8R3TVA52vS_obpbf3pxpsjtihIsMBSPZFjemyha_0Pkj07cJIoINTKJgft8-xkrRnR46CoMerRi4IUrfqx3T82Zy8nNol2FUXrcZ50Qq891ci7tDd)
-
+    
+<img src="https://lh5.googleusercontent.com/JuQllaI9HpwLkjkkAGhz9ua8R3TVA52vS_obpbf3pxpsjtihIsMBSPZFjemyha_0Pkj07cJIoINTKJgft8-xkrRnR46CoMerRi4IUrfqx3T82Zy8nNol2FUXrcZ50Qq891ci7tDd" alt="img" width="350" />
+   
 
 
 **Finally,**
 
-![img](https://lh4.googleusercontent.com/VsX1QoUtpmsfmJ4lE1mtxQoRfJBNRYGfMxz1Ad3KUdAQkjq-pZTeezq0Q-RpO9ZTEV4-_ri1o-ayEF2geqYeFiGp8bII8oVnzKzVvcKxIvGiTMahCKXYRFH9ALwLAWqTb_qKlTIm)
+<img src="https://lh4.googleusercontent.com/VsX1QoUtpmsfmJ4lE1mtxQoRfJBNRYGfMxz1Ad3KUdAQkjq-pZTeezq0Q-RpO9ZTEV4-_ri1o-ayEF2geqYeFiGp8bII8oVnzKzVvcKxIvGiTMahCKXYRFH9ALwLAWqTb_qKlTIm" alt="img" width="350" />
 
 
 
