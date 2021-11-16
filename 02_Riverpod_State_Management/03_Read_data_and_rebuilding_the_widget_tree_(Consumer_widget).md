@@ -4,13 +4,13 @@
 
 Because inside the note app, we have used a **ListView** widget and this widget displays the values of the **notes** variable. When the user adds a new note inside the **notes** variable, we need to rebuild the **ListView** widget again. Because of this reason we used the **notifyListeners()** method inside the **addNote** function that is inside the NoteProvider class.
 
-<img src="https://lh6.googleusercontent.com/nC3U3-tpn1vQ5ONZgWJulQSRdMaN152lMFyfCaQ_FPN2eNVbLtD7_Yws53gNOPh-FFQoL8Tn6SHDYdeQhkb-xOp2GtAwEEZ80Zi5X7qR800YuEjI0_nvkz6S_2lSoyjydPRW5JCo" alt="img" style="zoom:67%;" />
+<img src="https://lh6.googleusercontent.com/nC3U3-tpn1vQ5ONZgWJulQSRdMaN152lMFyfCaQ_FPN2eNVbLtD7_Yws53gNOPh-FFQoL8Tn6SHDYdeQhkb-xOp2GtAwEEZ80Zi5X7qR800YuEjI0_nvkz6S_2lSoyjydPRW5JCo" width="550" />
 
 
 
 20. Not only, we need to rebuild the widget tree, we also need to access the **notes** variable that is inside the **NoteProvider** class, and use it inside the **ListView** widget. So, the widget which will help us with accessing & rebuilding the widget tree is the **Consumer** widget. 
 
-<img src="https://lh6.googleusercontent.com/7IDdWwZzi-nLNt1-Bb_Gyoku3QPuWOhVvJJOh00R8WS4ddSkEnFEI_4i0r6i4VMEfOGosYID80nop7NZYLmHi_HtM-_LRmHt1e8fTMyOOMcpeTAxOAU-lckRLeYr8ff31uIfaTyT" alt="img" style="zoom:67%;" />
+<img src="https://lh6.googleusercontent.com/7IDdWwZzi-nLNt1-Bb_Gyoku3QPuWOhVvJJOh00R8WS4ddSkEnFEI_4i0r6i4VMEfOGosYID80nop7NZYLmHi_HtM-_LRmHt1e8fTMyOOMcpeTAxOAU-lckRLeYr8ff31uIfaTyT" alt="img" width="550" />
 
 
 
@@ -37,7 +37,7 @@ Consumer(
 
 21. Since we are using the **notes** variable inside the **ListView** widget, we will use the **watch** argument, and create a **noteManager** variable inside the **builder** named argument.
 
-    <img src="https://lh3.googleusercontent.com/yQKjrLjIkbFHzAEt1RtBtslA1U10Fuai_4WjTGJ1e3hve-cbKO9nq5OSrLdxfC6MJpoTyrXH_-SwJDcF8FNQ0Mjmj-6tIHsY8zX7ZttdVOzCWEtBd1dlmSpg9y7_Av1lJ9RksI35" alt="img" style="zoom:67%;" />
+    <img src="https://lh3.googleusercontent.com/yQKjrLjIkbFHzAEt1RtBtslA1U10Fuai_4WjTGJ1e3hve-cbKO9nq5OSrLdxfC6MJpoTyrXH_-SwJDcF8FNQ0Mjmj-6tIHsY8zX7ZttdVOzCWEtBd1dlmSpg9y7_Av1lJ9RksI35" alt="img" width="550" />
 
 ```dart
  Consumer(
@@ -88,7 +88,7 @@ Replace the **itemCount: notes.length** to the **itemCount: noteManager.notes.le
               ),
 ```
 
-<img src="https://lh3.googleusercontent.com/YLoXcCwqF-aBTpkKlaAHb1boVEknu_lx3Dx-dPeo3yNuYmfef-IuxyUQ_P19wfXVFuopWrdRuSoTrcqn7X0zgkK_aZPxC_bhFijxbARJwtmrOnIK9FdWEivkPL39zQRIHCUmmKF5" alt="img" style="zoom:67%;" />
+<img src="https://lh3.googleusercontent.com/YLoXcCwqF-aBTpkKlaAHb1boVEknu_lx3Dx-dPeo3yNuYmfef-IuxyUQ_P19wfXVFuopWrdRuSoTrcqn7X0zgkK_aZPxC_bhFijxbARJwtmrOnIK9FdWEivkPL39zQRIHCUmmKF5" alt="img" width="550" />
 
 
 
@@ -127,7 +127,7 @@ class NoteProvider extends ChangeNotifier {
 
 Then, go to the **home_page.dart** file, and above the `return NoteListTile` change the value of the **selectedIndex** variable to the **index** value. 
 
-<img src="https://lh3.googleusercontent.com/UCqUt3P_D5MdB3UrDe9S3n2dT2wgI99hhxoGV-EDukew-iFoz1lirJfLTb3kSA0vkn1CQj8Z4R1myVTKUBP8KWbLYYym-x1kUh2RSdq9445TUk7Y7eIei32fSY54x14PCopIMaEq" alt="img" style="zoom:67%;" />
+<img src="https://lh3.googleusercontent.com/UCqUt3P_D5MdB3UrDe9S3n2dT2wgI99hhxoGV-EDukew-iFoz1lirJfLTb3kSA0vkn1CQj8Z4R1myVTKUBP8KWbLYYym-x1kUh2RSdq9445TUk7Y7eIei32fSY54x14PCopIMaEq" alt="img" width="550" />
 
 ```dart
  Consumer(
@@ -186,7 +186,7 @@ Inside the **home_page.dart** file, remove the **note** named argument inside th
 
 Also, we will remove the **note** variable and the **Constructor** inside the **NoteListTile** and the **NotePage** widget.
 
-<img src="https://lh4.googleusercontent.com/4nf6aaVYYxIYgURUDsStY_jIB-swPn0-FAHNlyStYXXnPT1Wmp6N86LRN9EUuXJ_h3p0AApXdxfq1tEZ20oxWWftGVTBvSD4yJNXELvWwZ1Q-FGP-86pVEkMGCl-O5ccX9w6X-rR" alt="img" style="zoom:67%;" />
+<img src="https://lh4.googleusercontent.com/4nf6aaVYYxIYgURUDsStY_jIB-swPn0-FAHNlyStYXXnPT1Wmp6N86LRN9EUuXJ_h3p0AApXdxfq1tEZ20oxWWftGVTBvSD4yJNXELvWwZ1Q-FGP-86pVEkMGCl-O5ccX9w6X-rR" alt="img" width="550" />
 
 
 
@@ -205,7 +205,7 @@ import '../providers/note_provider.dart';
 
 Then, go to the **note_list_tile.dart** file, and use the **Consumer** widget.
 
-<img src="https://lh3.googleusercontent.com/PuDDvPEgmDRDA8pqlBvtSapWUb89JPYWzdF0b44tNAhfvnxhYuxaWTyjerF9dGNAngJ696xgF_nnn0LncnIKWaHT2lMz4_GhBjf9331CgxhLnZCm46SxyzeyQPj5RNfsOX46FgIu" alt="img" style="zoom:67%;" />
+<img src="https://lh3.googleusercontent.com/PuDDvPEgmDRDA8pqlBvtSapWUb89JPYWzdF0b44tNAhfvnxhYuxaWTyjerF9dGNAngJ696xgF_nnn0LncnIKWaHT2lMz4_GhBjf9331CgxhLnZCm46SxyzeyQPj5RNfsOX46FgIu" alt="img" width="550" />
 
 ```dart
 class NoteListTile extends StatelessWidget {
@@ -248,13 +248,13 @@ class NoteListTile extends StatelessWidget {
 
 26. Then inside the **builder** named argument create the **noteManager** variable; later we will use this variable to access the **notes** & **selectedIndex** variable.
 
-<img src="https://lh5.googleusercontent.com/lrbkMY5XV4PSntaK_f68cL7eik_nbmXT4WDeg8BUWIkWaieKPhlnA62OpUWrg5X6wrj8z37zbzuneO-gGdlYD9-1K6W-xRKJR9_xgjp2g-hOav5Huldy922kkdfqjKINycI_YAWO" alt="img" style="zoom:67%;" />
+<img src="https://lh5.googleusercontent.com/lrbkMY5XV4PSntaK_f68cL7eik_nbmXT4WDeg8BUWIkWaieKPhlnA62OpUWrg5X6wrj8z37zbzuneO-gGdlYD9-1K6W-xRKJR9_xgjp2g-hOav5Huldy922kkdfqjKINycI_YAWO" alt="img" width="550" />
 
 
 
 27. Create another variable, then name it **selectedNote**, and keep its value to **noteManager.notes[noteManager.selectedIndex]**
 
-**<img src="https://lh4.googleusercontent.com/Q-zGh9H7gfGOMVRd89tVIh_PyaT_SlSZyC09Pvr4DRxkblHtF_pRPahlueSrXJst_G41RA5-PdLmUshH0_JO898EWG7upr3xTpxnBSxhLZw3vn3KFz2hweFFms0jiuYRzmW4WhET" alt="img" style="zoom:67%;" />**
+**<img src="https://lh4.googleusercontent.com/Q-zGh9H7gfGOMVRd89tVIh_PyaT_SlSZyC09Pvr4DRxkblHtF_pRPahlueSrXJst_G41RA5-PdLmUshH0_JO898EWG7upr3xTpxnBSxhLZw3vn3KFz2hweFFms0jiuYRzmW4WhET" alt="img" width="550" />**
 
 
 
@@ -315,7 +315,7 @@ Replace note.title to **selectedNote.title** inside the **Text** widget,
 Text(selectedNote.title),
 ```
 
-<img src="https://lh3.googleusercontent.com/i71JD6CQ1NHAhHSbB0rZ1coN4cHdy6DednqUDf-ZMveXSwupmkSMFkiTjB8KJODj0HdPXjjjlCz6ubCDYzcM6fUVgfa8KCfYfiol2p9O87T8JG-r3W5sdCK1Z9OdcImpX_8Ix3Ru" alt="img" style="zoom:67%;" />
+<img src="https://lh3.googleusercontent.com/i71JD6CQ1NHAhHSbB0rZ1coN4cHdy6DednqUDf-ZMveXSwupmkSMFkiTjB8KJODj0HdPXjjjlCz6ubCDYzcM6fUVgfa8KCfYfiol2p9O87T8JG-r3W5sdCK1Z9OdcImpX_8Ix3Ru" alt="img" width="550" />
 
 
 
@@ -434,11 +434,10 @@ class _NotePageState extends State<NotePage> {
 
 **Then run the app ^_^**
 
-<img src="https://lh6.googleusercontent.com/L3bE8f6cnDg7_8l84y4L2htEF6njv3GjgAA7EIgWdCNGmFavvkDSvVCadR7Q8j8_DqecmzYtE3QsboME_y-qdQwzJtDbhmiIvWY-NlyINJbmhYk7ilBFDfBiiPbXW518rURggRRz" alt="img" style="zoom:67%;" />
+<img src="https://lh6.googleusercontent.com/L3bE8f6cnDg7_8l84y4L2htEF6njv3GjgAA7EIgWdCNGmFavvkDSvVCadR7Q8j8_DqecmzYtE3QsboME_y-qdQwzJtDbhmiIvWY-NlyINJbmhYk7ilBFDfBiiPbXW518rURggRRz" alt="img" width="350" />
 
+<img src="https://lh6.googleusercontent.com/-3urOR1FVaBWCyVe5MkximX1SMUWaqt5XQ8kDabiVg3l5XvTqPpMkGME3mPmbGjv4IZlxXTPQ10x81_tv0Kd7CErUL8xjC8uzAS9jRofYcPrDifemnDTPbEljLQ53dPsM5QsOjJY" alt="img" width="350" />
 
-
-![img](https://lh6.googleusercontent.com/-3urOR1FVaBWCyVe5MkximX1SMUWaqt5XQ8kDabiVg3l5XvTqPpMkGME3mPmbGjv4IZlxXTPQ10x81_tv0Kd7CErUL8xjC8uzAS9jRofYcPrDifemnDTPbEljLQ53dPsM5QsOjJY)
 
 
 
