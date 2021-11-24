@@ -1,4 +1,3 @@
-# Read the data & rebuilding the widget tree (Consumer widget)
 
 Because inside the note app, we have used a **ListView** widget and this widget displays the values of the **notes** variable. When the user adds a new note inside the **notes** variable, we need to rebuild the **ListView** widget again. Because of this reason we used the **notifyListeners()** method inside the **addNote** function that is inside the NoteProvider class.
 

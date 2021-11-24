@@ -1,4 +1,4 @@
-# Notes APP
+## Notes APP
 
 In this example, we will create a note app. First, we will create this app by using the regular way that we learned before which is the **setState** way, and later we will learn how to use the **riverpod** state management.
 

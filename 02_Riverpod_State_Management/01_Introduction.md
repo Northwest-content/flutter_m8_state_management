@@ -1,4 +1,4 @@
-# **Riverpod** State Management
+## **Riverpod** State Management
 
 To learn state management and see how it works for yourself, you will continue working with the previous project. Before we start!
 

@@ -1,4 +1,3 @@
-# **insert** & **removeAt** list methods
 
 5. Inside the **home_page.dart**, we will create a notes list that will store our notes inside it. So, replace the `// TODO: #2 note list` with
 

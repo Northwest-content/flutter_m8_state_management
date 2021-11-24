@@ -1,4 +1,3 @@
-# **SingleChildScrollView** widget
 
 4. Inside our app, we will have two areas in the HomePage widget, the first area that on the top will have two **TextField** widgets (**Title** of the note & **Body** of the note), and we will use these **TextField** widgets to take input from the user. The second area on the bottom will have a **ListView** widget to display the notes.
 

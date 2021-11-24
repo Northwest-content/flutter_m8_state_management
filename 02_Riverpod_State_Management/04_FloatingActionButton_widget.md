@@ -1,4 +1,3 @@
-# **FloatingActionButton** widget
 
 To display a floating button on the home screen, we can use the **FloatingActionButton** widget as the screenshot below shows.
 
