@@ -1,4 +1,3 @@
-
 To display a floating button on the home screen, we can use the **FloatingActionButton** widget as the screenshot below shows.
 
 ![screenshot](https://lh3.googleusercontent.com/fKdEk6ZavZPBMiIXW4j6Amf5klQpCkq1BdBieGUTwAeEnnwpN-pWKwDTwEXuyx4TWbY1jqqEoTaJbJxiass3zEqaVLeF8nssW72FEh2Wq4KjDCFrYYxLpXoXm7yfIWM-rxnCnF-i)
@@ -24,25 +23,25 @@ FloatingActionButton(
         )
 ```
 
-The second named argument is **onPressed**, this named argument will take a function that is called when the button is tapped. Also, don’t forget to call the **addNote** function inside the noteProvider.
+The second named argument is **`onPressed`**, this named argument will take a function that is called when the button is tapped. Also, don’t forget to call the **`addNote`** function inside the noteProvider.
 
 ![screenshot](https://lh3.googleusercontent.com/kYgvE5iLhBmlBHh0frEDRQrD8TBKLQFtVdNGNop_9sKl-2Su5NGICn_WyYBqnr3YPnjypdQaZ_BfimDLmr21R0EerCZqzuP6hvAFnuVN604j4L3-3y3uHOCR7a6YCETw9WVHvFCf)
 
 ```dart
 FloatingActionButton(
-          child: Icon(
-            Icons.add,
-            size: 30,
-          ),
+    child: Icon(
+      Icons.add,
+      size: 30,
+    ),
 
-          // Here
-          onPressed: () {
-            context.read(noteProvider).addNote(
-                  title: _titleTextEditingController.text,
-                  body: _bodyTextEditingController.text,
-                );
-          },
-        )
+    // Here
+    onPressed: () {
+      context.read(noteProvider).addNote(
+            title: _titleTextEditingController.text,
+            body: _bodyTextEditingController.text,
+          );
+    },
+   )
 ```
 
 The last argument we will use is **backgroundColor**, The FloatingActionButton's background color. We will use the **primaryColor** that we set before inside the **main.dart** file.

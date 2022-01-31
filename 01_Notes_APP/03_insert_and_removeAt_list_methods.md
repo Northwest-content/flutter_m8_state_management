@@ -1,5 +1,4 @@
-
-5. Inside the **home_page.dart**, we will create a notes list that will store our notes inside it. So, replace the `// TODO: #2 note list` with
+1. Inside the **`home_page.dart`**, we will create a notes list that will store our notes inside it. So, replace the `// TODO: #2 note list` with
 
 ```dart
 var notes = [];
@@ -34,22 +33,22 @@ var notes = [];
 ```dart
 ListView.builder(
 
-                  // #1
-                  itemCount: notes.length,
-                  itemBuilder: (BuildContext context, int index) {
+   // #1
+   itemCount: notes.length,
+   itemBuilder: (BuildContext context, int index) {
 
-                    // #2
-                    return NoteListTile(
-                      note: notes[index],
-                    );
-                  },
-                ),
+     // #2
+     return NoteListTile(
+       note: notes[index],
+     );
+   },
+ ),
 ```
 
-1. The **ListView.builder** will need two important named arguments, the first one is **itemCount**, and here we take the length of the notes list since we will use this notes list to display its contents inside the **ListView.builder** widget.
-2. Here, we returned the **NoteListTile** widget for the **itemBuilder** method **ListView** widget. We created this tile widget inside the **note_list_tile.dart** file, and we will use it to display the values of the **notes** list.
+1. The **`ListView.builder`** will need two important named arguments, the first one is **`itemCount`**, and here we take the length of the notes list since we will use this notes list to display its contents inside the **`ListView.builder`** widget.
+2. Here, we returned the **`NoteListTile`** widget for the **`itemBuilder`** method **`ListView`** widget. We created this tile widget inside the **`note_list_tile.dart`** file, and we will use it to display the values of the **notes** list.
 
-3. Don’t forget to import **note_list_tile.dart** since we used it inside the **ListView** widget.
+3. Don’t forget to import **note_list_tile.dart** since we used it inside the **`ListView`** widget.
 
    ```dart
    import '../widgets/note_list_tile.dart';
@@ -95,15 +94,15 @@ Also, add `physics: const NeverScrollableScrollPhysics(),` named argument. This 
 
     ```dart
     IconButton(
-                          iconSize: 32,
-                          icon: Icon(
-                            Icons.add_box,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                          onPressed: () {
-                            addNote();  // <- Here
-                          },
-                        )
+      iconSize: 32,
+      icon: Icon(
+        Icons.add_box,
+        color: Theme.of(context).primaryColor,
+      ),
+      onPressed: () {
+        addNote();  // <- Here
+      },
+    )
     ```
 
 ![screenshot](https://lh5.googleusercontent.com/JuQllaI9HpwLkjkkAGhz9ua8R3TVA52vS_obpbf3pxpsjtihIsMBSPZFjemyha_0Pkj07cJIoINTKJgft8-xkrRnR46CoMerRi4IUrfqx3T82Zy8nNol2FUXrcZ50Qq891ci7tDd)
