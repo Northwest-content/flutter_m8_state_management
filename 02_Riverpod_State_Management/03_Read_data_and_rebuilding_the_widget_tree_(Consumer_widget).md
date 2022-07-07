@@ -371,4 +371,3 @@ class _NotePageState extends State<NotePage> {
 
 ![screenshot](https://lh6.googleusercontent.com/L3bE8f6cnDg7_8l84y4L2htEF6njv3GjgAA7EIgWdCNGmFavvkDSvVCadR7Q8j8_DqecmzYtE3QsboME_y-qdQwzJtDbhmiIvWY-NlyINJbmhYk7ilBFDfBiiPbXW518rURggRRz)
 
-![screenshot](https://lh6.googleusercontent.com/-3urOR1FVaBWCyVe5MkximX1SMUWaqt5XQ8kDabiVg3l5XvTqPpMkGME3mPmbGjv4IZlxXTPQ10x81_tv0Kd7CErUL8xjC8uzAS9jRofYcPrDifemnDTPbEljLQ53dPsM5QsOjJY)
