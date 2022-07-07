@@ -108,9 +108,6 @@ Also, add `physics: const NeverScrollableScrollPhysics(),` named argument. This 
 
 ![screenshot](https://lh5.googleusercontent.com/JuQllaI9HpwLkjkkAGhz9ua8R3TVA52vS_obpbf3pxpsjtihIsMBSPZFjemyha_0Pkj07cJIoINTKJgft8-xkrRnR46CoMerRi4IUrfqx3T82Zy8nNol2FUXrcZ50Qq891ci7tDd)
 
-**Finally,**
-
-![screenshot](https://lh4.googleusercontent.com/VsX1QoUtpmsfmJ4lE1mtxQoRfJBNRYGfMxz1Ad3KUdAQkjq-pZTeezq0Q-RpO9ZTEV4-_ri1o-ayEF2geqYeFiGp8bII8oVnzKzVvcKxIvGiTMahCKXYRFH9ALwLAWqTb_qKlTIm)
 
 **Note: You can find the full source code.**
 
